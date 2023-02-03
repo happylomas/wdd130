@@ -151,7 +151,7 @@ main section {
     padding-top: 5px;
 }
 .rivers-card, .camping-card, .rapids-card {
-    margin-top: 100px 0;
+    margin-top: 0;
 }
 .card-img {
     border: 10px solid #99774a;

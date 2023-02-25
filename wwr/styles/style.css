@@ -1,10 +1,12 @@
-
+/* @import url('<style> */
+    /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400&family=PT+Serif&family=Playfair+Display:ital@0;1&family=Sofia+Sans&display=swap'); */
+    /* </style>') */
 #background {
     height: 725px;
 }
 
 body {
-    background-color: #8f8181; 
+    /* background-color: #8f8181;  */
     font-family: 'Arial', 'Bradley Hand', sans-serif;
     font-size: 22px;
     margin: 0; 

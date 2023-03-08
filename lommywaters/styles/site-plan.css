@@ -186,4 +186,13 @@ nav a:hover {
 
 #image2   {
   width: 50%;
+  display: block;
+  text-align: center;
+}
+
+.honesty img {
+/* display: block; */
+margin-left: auto;
+margin-right: auto;
+display: flex;
 }

@@ -33,13 +33,13 @@ Fonts are separated by a & */
 body {
   max-width: 960px;
   margin: 0 auto;
-  padding: 4em;
+  /* padding: 4em; */
   font-size: 18px;
   text-align: center;
 }
 img {
   display: block;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   max-width: 300px;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -98,27 +98,25 @@ p.colored {
   color: var(--paragraph-color-on-color);
 }
 nav {
-  background-color: var(--nav-background-color);
-  line-height: 3em;
+  color: #fffce6;
   text-align: center;
   font-size: 1.2em;
-}
-nav  {
   list-style-type: none;
   display: flex;
+  gap: 100px;
 }
+
 nav a {
-  padding:1em;
-  min-width: 120px;
+  padding:10px ;
+  color: white;
   text-decoration: none;
-  padding: 10px;
 }
-nav a:link, nav a:visited {
-  color: var(--nav-link-color);
+nav a:visited {
+  color: rgb(253, 253, 192);
 }
 nav a:hover {
   color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  border-bottom: 3px solid yellow;
 }
 .sitemap {
   display: grid;
@@ -164,6 +162,37 @@ nav a:hover {
   border-right: 1px solid;
 }
 
+.logo {
+  width: 20%;
+  padding: 20px;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer {
+  background: #396E94;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+footer p {
+  color: white;
+}
+footer a {
+  color: white;
+}
+.social {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+
+}
 
 
 

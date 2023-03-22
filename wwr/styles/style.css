@@ -285,5 +285,18 @@ margin-top: 100px;
         margin-top: 25px;
     }
 }
+
+.board {
+    justify-items: center;
+    text-align: center;
+}
+.alpha {
+    justify-items: center;
+    text-align: center;
+}
+.beta {
+    justify-items: center;
+    text-align: center;
+}
         
 

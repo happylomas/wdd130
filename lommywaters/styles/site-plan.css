@@ -58,6 +58,8 @@ hr {
   background: var(--accent1-color);
 }
 header {
+  display: flex;
+  align-items: center;
   padding: 1em;
   text-align: center;
   color: var(--headline-color-on-color);
@@ -184,7 +186,7 @@ nav a:hover {
   text-align: justify;
 }
 
-#image2   {
+.image2   {
   width: 50%;
   display: block;
   text-align: center;

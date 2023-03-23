@@ -36,10 +36,10 @@ body {
   font-size: 18px;
   text-align: center;
 }
-img {
+/* img {
   display: block;
-  margin: 50px;
-}
+  margin: 50px; */
+/* } */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
@@ -106,26 +106,34 @@ p.colored {
   color: var(--paragraph-color-on-color);
 }
 
-nav {
+/* .navbar {
   background-color: var(--nav-background-color);
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
-}
-nav  {
   list-style-type: none;
   display: flex;
-
+  color: white;
+} */
+nav {
+  background-color: var(--paragraph-background-color);
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em;
+  list-style-type: none;
+  display: flex;
+  color: white;
 }
+
 nav a {
   padding:1em;
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
-
+  color: white;
 }
 nav a:link, nav a:visited {
-  color: var(--nav-link-color);
+  color: yellow;
 }
 nav a:hover {
   color: var(--nav-hover-link-color);
@@ -186,20 +194,21 @@ nav a:hover {
   text-align: justify;
 }
 
-.image2   {
+.image2 {
   width: 50%;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
-.honesty img {
-/* display: block; */
-/* margin-left: auto; */
-/* margin-right: auto; */
-display: flex;
-justify-content: flex-start;
+.drink img {
+  width: 50%;
 }
-
+.honesty {
+  display: flex;
+  justify-content: flex-start;
+}
 
 footer {
   background: #396E94;
@@ -207,7 +216,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 50px;
+  gap: 20px;
 }
 footer p {
   color: white;

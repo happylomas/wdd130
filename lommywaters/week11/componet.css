@@ -19,12 +19,12 @@ body, html {
   }
   
   /* Images used */
-  .img1 { background-image: url("/cleaning/images/cleanhome.jpg"); }
-  .img2 { background-image: url("/cleaning/images/clean-home2.jpg"); }
-  .img3 { background-image: url("/cleaning/images/glove_dit.jpg"); }
-  .img4 { background-image: url("/cleaning/images/peoplemobing.jpg"); }
-  .img5 { background-image: url("/cleaning/images/someone_mobing.jpg"); }
-  .img6 { background-image: url("/cleaning/images/download.jpg"); }
+  .img1 { background-image: url("images/img1.jpg"); }
+  .img2 { background-image: url("images/img2.jpg"); }
+  .img3 { background-image: url("images/img3.jpg"); }
+  .img4 { background-image: url("images/img4.jpg"); }
+  .img5 { background-image: url("images/img5.jpg"); }
+  .img6 { background-image: url("images/img6.jpg"); }
   
   /* Position text in the middle of the page/image */
   .bg-text {

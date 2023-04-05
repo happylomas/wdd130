@@ -255,6 +255,8 @@ margin-top: 100px;
 }
 
 .board {
+    margin: 0 auto;
+    margin-right: auto;
     justify-items: center;
     text-align: center;
 }

@@ -57,13 +57,14 @@ h2 {
 }
 
 .msg {
-    background-color: #8f8181;
-    line-height: 1.5em;
+    background-color: #6f7364;
+    padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
-    padding: 35px;
-    box-shadow: 5px 5px 10px #d9c2a3;
+    box-shadow: 5px 5px 10px #6f7364;
+    /* line-height: 1.5em; */
 }
+
 
 .msg h2 {
     color: #d9c2a3;
@@ -81,7 +82,7 @@ footer {
     background-color: #8f8181;
     color: #d9c2a3;
     padding: 25px 50px;
-    margin-top: 25px;
+    margin-top: 200px;
     display: flex;
     justify-content:space-around ;
     align-items: center;
@@ -170,26 +171,27 @@ main section {
     align-self: center;
 }
 .rivers-card {
-        margin-top: 200px;
+        margin-top: 200px 0;
         grid-column: 2/4;
-        grid-row:  2/3
+        grid-row:  2/3;
+        text-align: center;
     }
 .camping-card {
-    margin-top: 200px;
+    margin-top: 200px 0;
     grid-column: 5/7;
     grid-row:  2/3
 }
 
 .rapids-card {
-    margin-top: 200px;
-    grid-column: 10/8;
+    margin-top: 200px 0;
+    grid-column: 8/10;
     grid-row:  2/3
 
     }
 
 .card-img {
     border: 10px solid #99774a;
-    /* width: 100%; */
+    width: 100%;
     /* border: 10px solid #8f8181; */
     transition: transform .5s;
     box-shadow: 5px 5px 10px #fcfbfb;
@@ -224,22 +226,48 @@ margin-top: 100px;
     color: white;
 }
 
-#home-grid {
+.home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
 }
 
-/* .card-img {
-
-} */
-
-.mountains {
+/* .card-img, .mountains {
     grid-column:  2/7;
     grid-row: 5/8;
     /* width: 100%; */
-    box-shadow: 5px 5px 10px #8f8181;
+    /* box-shadow: 5px 5px 10px #8f8181; */
+/* } */ 
+
+.card-img, .mountains {
+    /* grid-column:  2/7; */
+    /* grid-row: 5/8; */
+    width: 100%;
+    /* box-shadow: 5px 5px 10px #8f8181; */
 }
+
+.mountains {
+    width: 100%;
+    grid-column: 2/7;
+    grid-row:  5/8;
+    box-shadow: 5px 5px 10px #6f7364;
+    
+}
+
+.board {
+    justify-items: center;
+    text-align: center;
+}
+.alpha {
+    justify-items: center;
+    text-align: center;
+}
+.beta {
+    justify-items: center;
+    text-align: center;
+}
+  
+
 
 
 
@@ -286,17 +314,5 @@ margin-top: 100px;
     }
 }
 
-.board {
-    justify-items: center;
-    text-align: center;
-}
-.alpha {
-    justify-items: center;
-    text-align: center;
-}
-.beta {
-    justify-items: center;
-    text-align: center;
-}
-        
+      
 

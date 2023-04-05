@@ -70,7 +70,7 @@ header > h1, header > h2 {
 }
 
 p {
-  font-family: var(--paragraph-font);
+  font-size: large;
   color: var(--paragraph-color-on-white);
   padding: 1em;
 }

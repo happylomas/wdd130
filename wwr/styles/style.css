@@ -255,18 +255,23 @@ margin-top: 100px;
 }
 
 .board {
-    margin: 0 auto;
+    margin: 20px;
     margin-right: auto;
     justify-items: center;
     text-align: center;
+    border: solid #6f7364;
 }
 .alpha {
     justify-items: center;
     text-align: center;
+    border: solid #6f7364;
+    margin: 20px;
 }
 .beta {
     justify-items: center;
     text-align: center;
+    border: solid #6f7364;
+    margin: 20px;
 }
   
 
